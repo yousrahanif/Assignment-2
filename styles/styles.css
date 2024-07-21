@@ -11,6 +11,7 @@ body{
     width: 90%;
     margin: 5rem auto;
     border-radius: 1rem;
+   
 }
 .nav-bar{
     display: flex;
@@ -185,8 +186,8 @@ text-align: center;
     align-items: center;
  
     text-align: center;
-    gap: 30px;
-    margin-top: 20px;
+    gap: 130px;
+    margin-top: 40px;
 
 
 }
@@ -203,6 +204,7 @@ font-weight: 600;
 line-height: 120%;
 letter-spacing: 0%;
 text-align: center;
+margin-top: 10px;
 }
 .img-subtitle{
     color: rgba(255, 255, 255, 0.5);
@@ -212,9 +214,77 @@ font-weight: 400;
 line-height: 18px;
 letter-spacing: 0.3px;
 text-align: center;
+margin-top: 5px;
+}
+.runner{
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    border-radius: 18px;
+
+background: rgb(34, 34, 34);
+
+
+}
+.runner img{
+  /* Rectangle 22 */
+/* position: absolute; */
+width: 366px;
+height: 212px;
+/* left: 1162px;
+top: 1640px; */
+   
+   
+}
+.runner-title{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 20px;
+
+}
+.runner-subtitle{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+margin-left: 20px;
+background: transparent;
+}
+.runner-button{
+    border-radius: 42px;
+
+    background: rgb(230, 83, 60); 
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+
+padding: 14px 30px 14px 30px;
+margin: 34px 0px;
+border: none;
+}
+.runner-button-parent{
+    margin-left: 20px;
 }
 
-
+.runner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 
 
@@ -245,6 +315,8 @@ text-align: center;
      }
      .img-div1{
         flex-direction: column;
+        margin-top: 10px;
+        gap: 15px;
         
      }
      .img-div1 img{
@@ -255,5 +327,25 @@ text-align: center;
      }
      .img-subtitle{
         margin-top: 5px;
+     }
+     .runner{
+        flex-direction: column;
+       
+     }
+     .runner-title{
+        font-size: 18px;
+        margin-bottom: 10px;
+     }
+     .runner-subtitle{
+        font-size: 12px;
+        margin-bottom: 10px;
+     }
+     
+     .runner img{
+        width: 336px;
+        height: 219px;
+        margin-top: 20px;
+        background-color: transparent;
+    
      }
 }
