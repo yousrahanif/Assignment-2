@@ -879,6 +879,7 @@ text-align: center;
     .day-button{
         margin-left: 10%;
         font-size: 12px;
+        cursor: pointer;
     }
     .month-blog{
         margin-left: 25px;
@@ -886,6 +887,7 @@ text-align: center;
     .month-button{
         margin-left: 10%;
         font-size: 12px;
+        cursor: pointer;
     }
     
 }
