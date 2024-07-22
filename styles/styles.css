@@ -40,6 +40,7 @@ border-radius: 30px;
     color: rgb(230, 83, 60);
 font-size: 36px;
 font-weight: 800;
+margin-bottom: 10px;
 }
 .home{
     border-radius: 46px;
@@ -218,6 +219,9 @@ font-weight: 400;
 text-align: center;
 margin-top: 5px;
 }
+.runner-parent{
+    padding: 70px;
+}
 .runner{
  
     display: flex;
@@ -227,6 +231,7 @@ margin-top: 5px;
     border-radius: 18px;
 
 background: rgb(34, 34, 34);
+
 
 
 }
@@ -436,9 +441,10 @@ text-align: center;
 }
 
 .meet-div1 img{
-    width: 342.67px;
-height: 272px;
+    width: 492px;
+height: 372px;
 border-radius: 18px;
+gap: 40px;
 
 }
 .trainer-card{
@@ -447,15 +453,15 @@ border-radius: 18px;
 .trainer-title{
 color: white;
 position: absolute;
-    top: 70%;
-    left: 10%;
+    top: 80%;
+    left: 5%;
     font-weight: 800;
 }
 .trainer-subtitle{
 color: white;
 position: absolute;
-    top: 80%;
-    left: 10%;
+    top: 85%;
+    left: 5%;
     color: #b7b4b4;
 }
 /* table{
@@ -484,15 +490,16 @@ text-align: left;
 .get-started{
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 700;
     
     text-align: left;  
+    margin-bottom: 10px;
 }
 .footer-blog{
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 400;
     
    
@@ -501,9 +508,27 @@ text-align: left;
 }
 .footer-parent{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
+.custom-hr {
+    
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-top: 40px; 
+    margin-bottom: 40px;
+}
+.all-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+
+text-align: center;
+}
+
 
 @media screen and (max-width:576px) {
     .nav-options{
@@ -594,6 +619,28 @@ text-align: left;
     .span{
         margin-bottom: 5px;
     }
-    
-    
+    .custom-hr{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .all-right{
+        justify-content: flex-start;
+    }
+    .banner-div1-button1{
+        font-size: 11px;
+        
+
+    }
+    .banner-div1-button2{
+        font-size: 11px;
+        
+
+    }
+    .calculate-bmi-title{
+        margin-bottom: 10px;
+    }
+    .calculate-bmi-subtitle{
+        margin-bottom: 10px;
+    }
 }
+   
