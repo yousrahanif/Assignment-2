@@ -530,6 +530,186 @@ text-align: center;
 }
 
 
+.extra-card{
+    display: flex;
+    gap: 20px;
+}
+.day-pass{
+    
+    height: 600px;
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+    justify-content: center;
+    font-size: 40px;
+    background-color: rgb(51, 50, 48);
+    margin-top: 45px;
+   
+}
+.day-title{
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+.day-subtitle{
+    color: green;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 175px;
+    font-weight: 400;
+    margin-top: 5px;
+    font-size: 44px;
+
+}
+.day-subtitle2{
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 185px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 40px;
+
+}
+.day-blog{
+    color: white;
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+.day-blog i{
+    color: rgb(69, 74, 69);
+}
+.month-pass{
+    
+    height: 700px;
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+    justify-content: center;
+    font-size: 35px;
+    background-color:white;
+   
+}
+.day-button{
+    padding: 20px 130px 20px 130px;
+    margin-top: 40px;
+    margin-left: 25px;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+.month-title{
+    color: black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 44px;
+
+}
+.month-subtitle{
+    color: green;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 160px;
+    font-weight: 400;
+    margin-top: 5px;
+    font-size: 44px;
+
+}
+.month-subtitle2{
+    color: black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 185px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 40px;
+
+}
+.month-blog{
+    color: black;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.month-blog i{
+    color: green;
+    
+}
+.month-button{
+    padding: 20px 130px 20px 130px;
+    margin-top: 40px;
+    margin-left: 25px;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: green;
+}
+.extra{
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+
+
+.membership-title{
+    color:rgb(182, 177, 177);
+    font-size: 34px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.membership-subtitle{
+    color:white;
+    font-size: 44px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    
+}
+.membership-paragraph{
+    color:rgb(182, 177, 177);
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    
+}
+.membership-plan{
+    color:white;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.membership-blog{
+    color:rgb(182, 177, 177);
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 400;
+
+
+}
+.membership-blog i{
+    color: green;
+}
+
 @media screen and (max-width:576px) {
     .nav-options{
         display: none;
@@ -608,6 +788,13 @@ text-align: center;
         margin-bottom: 20px;
     
     }
+    .trainer-title{
+        left: 15%;
+    }
+    .trainer-subtitle{
+        left: 15%;
+
+    }
     .footer-parent{
         flex-direction: column;
         align-items: flex-start;
@@ -642,5 +829,30 @@ text-align: center;
     .calculate-bmi-subtitle{
         margin-bottom: 10px;
     }
+    .extra{
+        flex-direction: column;
+        
+    }
+    .extra-card{
+        flex-direction: column;
+        gap: 20px;
+        
+       
+    }
+    .day-blog{
+        margin-left: 25px;
+    }
+    .day-button{
+        margin-left: 10%;
+        font-size: 12px;
+    }
+    .month-blog{
+        margin-left: 25px;
+    }
+    .month-button{
+        margin-left: 10%;
+        font-size: 12px;
+    }
+    
 }
    
